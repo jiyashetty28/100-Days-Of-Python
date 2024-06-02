@@ -1,0 +1,41 @@
+print('''
+*******************************************************************************
+          |                   |                  |                     |
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                     |
+ _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+ _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+|                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
+|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+/______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+/______/______/______/______/______/______/______/______/______/______/_____ /
+*******************************************************************************
+''')
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.") 
+
+print("you just reached the island. Your are at a crossroad...on the left you see a beautiful lake with huge flowers surrounding it and on the right you see a dark forest. WHERE DO YOU GO?" )
+choice1 = input("left or Right?")
+if choice1 == "left":
+  print("you walk towards the lake, turns out! the flowers were carnivorous plants and you got eaten by them. Game over!")
+else:
+  print("as you walk into the forest, You found mushrooms and a berry bush. You are hungry, what do you do?")
+  choice2 = input("eat the mushrooms or eat the berries?")
+  if choice2 == "eat the berries":
+    print("the berries were poisonous and you DIED. game Over!")
+  else:
+    print("you ate the mushrooms and you are full. You see a cave in the distance. You are tired, what do you do?")
+    choice3 = input("go to the cave or keep walking?")
+    if choice3 == "go to the cave":
+      print("you walk into the cave and you found tons of gold and diamonds. You are Rich! You WON!!")
+    else:
+      print("you keep walking and you got lost in the forest. You Died. Game Over!")
